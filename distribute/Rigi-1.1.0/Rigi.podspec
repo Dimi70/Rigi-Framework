@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   s.license           = { :type => 'Copyright', :text => 'Copyright 2022 Rigi.io'}
 
 #  s.source            = { :git => 'https://github.com/Dimi70/Rigi-Framework.git', :tag => s.version.to_s }
-  s.source            = { :http => 'https://github.com/Dimi70/Rigi-Framework/raw/main/distribute/Rigi.zip' }
+  s.source            = { :http => 'https://github.com/Dimi70/Rigi-Framework/raw/main/distribute/Rigi-1.1.0.zip' }
 
   s.swift_versions    = '5.2'
   s.platform          = :ios, '10.0'
