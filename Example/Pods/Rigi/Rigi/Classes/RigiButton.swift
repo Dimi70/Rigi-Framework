@@ -8,16 +8,13 @@
 import Foundation
 import UIKit
 
-// https://stackoverflow.com/questions/34777558/in-ios-how-do-i-create-a-button-that-is-always-on-top-of-all-other-view-control/34883581
-// https://gist.github.com/mayoff/ea37ee75a87efab5d7e8
-
 // MARK: - Floating Button Window
 
 class RigiButton: UIViewController {
     private(set) var button: UIButton!
     private(set) var active: UIImageView!
 
-    private var window: RigiButtonWindow?
+    private let window = RigiButtonWindow()
 
     required init?(coder aDecoder: NSCoder) {
         fatalError()
@@ -25,32 +22,15 @@ class RigiButton: UIViewController {
 
     init() {
         super.init(nibName: nil, bundle: nil)
-
-        // From iOS 13 and up we need to add the window to the (foregroud) scene
-        if #available(iOS 13.0, *) {
-            let connectedScene =
-                UIApplication.shared
-                    .connectedScenes
-                    .filter { $0.activationState == .foregroundActive }
-                    .first
-            if let scene = connectedScene as? UIWindowScene {
-                window = RigiButtonWindow(scene: scene)
-            }
-        } else {
-            window = RigiButtonWindow()
-        }
-
-        window?.windowLevel = UIWindow.Level(rawValue: CGFloat.greatestFiniteMagnitude)
-        window?.isHidden = false
-        window?.rootViewController = self
-        window?.makeKeyAndVisible()
-
+        window.windowLevel = UIWindow.Level(rawValue: CGFloat.greatestFiniteMagnitude)
+        window.isHidden = false
+        window.rootViewController = self
         NotificationCenter.default.addObserver(self, selector: #selector(keyboardDidShow), name: UIResponder.keyboardDidShowNotification, object: nil)
     }
 
     @objc func keyboardDidShow(note: NSNotification) {
-        window?.windowLevel = UIWindow.Level(rawValue: 0)
-        window?.windowLevel = UIWindow.Level(rawValue: CGFloat.greatestFiniteMagnitude)
+        window.windowLevel = UIWindow.Level(rawValue: 0)
+        window.windowLevel = UIWindow.Level(rawValue: CGFloat.greatestFiniteMagnitude)
     }
 
     override func loadView() {
@@ -62,6 +42,7 @@ class RigiButton: UIViewController {
         // the correct target (see the assets file target membership in the file inspector panel).
         // Maybe we should match the naming of the Bundle(for:) and the "resource_bundles" naming in
         // the podspec somehow. Using "s.resource" instead seems to work ok however. So lets do it that way.
+
 
         let iconNormal = UIImage(named: "rigi-icon-blue", in: Bundle(for: Rigi.self), compatibleWith: nil)
         let iconActive = UIImage(named: "rigi-icon-red", in: Bundle(for: Rigi.self), compatibleWith: nil)
@@ -91,7 +72,7 @@ class RigiButton: UIViewController {
         button.rotate(duration: 60)
 
         self.view = view
-        window?.button = button
+        window.button = button
 
         let panner = UIPanGestureRecognizer(target: self, action: #selector(panDidFire))
         button.addGestureRecognizer(panner)
@@ -163,19 +144,11 @@ class RigiButton: UIViewController {
 class RigiButtonWindow: UIWindow {
 
     var button: UIButton?
+    var controller: RigiButton?
 
-    // For iOS 13 and below we can just create a regular window
     init() {
         super.init(frame: UIScreen.main.bounds)
-        self.backgroundColor = .clear
-    }
-
-    // For iOS 13 and up we need to create the window on the (foregroud) scene
-    @available(iOS 13.0, *)
-    init(scene: UIWindowScene) {
-        super.init(windowScene: scene)
-        self.frame = UIScreen.main.bounds
-        self.backgroundColor = .clear
+        backgroundColor = nil
     }
 
     required init?(coder aDecoder: NSCoder) {

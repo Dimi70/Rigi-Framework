@@ -33,7 +33,7 @@ public class Rigi {
         if settings.enableAutoScanning {
             startAutoScanning()
         }
-        RigiLogger.log(.verbose, "Rigi Framework is loaded and started.xx")
+        RigiLogger.log(.verbose, "Rigi Framework is loaded and started.")
     }
 
     @objc func handleTap() {

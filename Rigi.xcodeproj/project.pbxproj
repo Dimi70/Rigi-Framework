@@ -29,7 +29,6 @@
 		36E61B242821285900AB32E2 /* RigiButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RigiButton.swift; sourceTree = "<group>"; };
 		36E61B252821285900AB32E2 /* RigiExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RigiExtensions.swift; sourceTree = "<group>"; };
 		36E61B262821285A00AB32E2 /* RigiFileSystem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RigiFileSystem.swift; sourceTree = "<group>"; };
-		36E61B2D2821287200AB32E2 /* Rigi.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = Rigi.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,7 +65,6 @@
 				36E61B202821285900AB32E2 /* Classes */,
 				36E61AF42821276B00AB32E2 /* Rigi.h */,
 				36E61AF52821276B00AB32E2 /* Rigi.docc */,
-				36E61B2D2821287200AB32E2 /* Rigi.podspec */,
 			);
 			path = Rigi;
 			sourceTree = "<group>";
@@ -310,6 +308,7 @@
 		36E61AFB2821276B00AB32E2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -338,6 +337,7 @@
 		36E61AFC2821276B00AB32E2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;

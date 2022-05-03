@@ -1,12 +1,11 @@
 //
 //  AppDelegate.swift
-//  Example
+//  Development
 //
 //  Created by Dimitri van Oijen on 03/05/2022.
 //
 
 import UIKit
-import Rigi
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -14,9 +13,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-
-        Rigi.shared.start()
-        
+        // Override point for customization after application launch.
         return true
     }
 

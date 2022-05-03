@@ -1,0 +1,6 @@
+framework module Rigi {
+  umbrella header "Rigi-umbrella.h"
+
+  export *
+  module * { export * }
+}
