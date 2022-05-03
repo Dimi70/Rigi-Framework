@@ -13,8 +13,8 @@ Pod::Spec.new do |s|
   s.platform          = :ios, '10.0'
   s.frameworks        = 'UIKit'
 
-  s.source_files      = 'Classes/**/*.{swift}'
-  s.resources         = 'Assets/**'
+  s.source_files      = 'Rigi/Classes/**/*.{swift}'
+  s.resources         = 'Rigi/Assets/**'
 
   # Group swift files in Pod source
 #  s.subspec 'Classes' do |classes|
