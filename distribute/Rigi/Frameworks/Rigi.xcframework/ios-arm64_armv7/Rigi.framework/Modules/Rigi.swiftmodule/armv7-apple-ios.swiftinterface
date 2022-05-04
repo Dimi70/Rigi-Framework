@@ -6,10 +6,19 @@ import Foundation
 import Swift
 import UIKit
 import _Concurrency
-@_hasMissingDesignatedInitializers public class Rigi {
-  public static let shared: Rigi.Rigi
+@_hasMissingDesignatedInitializers public class RigiSdk {
+  public static let shared: Rigi.RigiSdk
   public var settings: Rigi.RigiSettings
   public func start()
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers public class RigiFileSystem {
+  @objc deinit
+}
+@objc @_hasMissingDesignatedInitializers @_Concurrency.MainActor(unsafe) public class RigiButton : UIKit.UIViewController {
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func loadView()
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidLayoutSubviews()
+  @_Concurrency.MainActor(unsafe) public func animateClick()
   @objc deinit
 }
 extension Swift.String {
@@ -17,6 +26,18 @@ extension Swift.String {
   public func replacingGroups(matching regex: Foundation.NSRegularExpression, with transformationString: Swift.String) -> Swift.String
 }
 public var debugLoggingEnabled: Swift.Bool
+public enum RigiLogLevel : Swift.String {
+  case debug, verbose, warning, error
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+@_hasMissingDesignatedInitializers public class RigiLogger {
+  public static func log(_ level: Rigi.RigiLogLevel = .verbose, _ message: Swift.String, _ error: Swift.Error? = nil)
+  @objc deinit
+}
 public struct RigiSettings {
   public enum ClipBounds {
     case screen
@@ -60,6 +81,9 @@ public struct RigiSettings {
   public var includedBodyStyles: Swift.String
   public var fontStyleClasses: [Swift.String : Swift.String]
 }
+extension Rigi.RigiLogLevel : Swift.Equatable {}
+extension Rigi.RigiLogLevel : Swift.Hashable {}
+extension Rigi.RigiLogLevel : Swift.RawRepresentable {}
 extension Rigi.RigiSettings.ClipBounds : Swift.Equatable {}
 extension Rigi.RigiSettings.ClipBounds : Swift.Hashable {}
 extension Rigi.RigiSettings.DivPosition : Swift.Equatable {}

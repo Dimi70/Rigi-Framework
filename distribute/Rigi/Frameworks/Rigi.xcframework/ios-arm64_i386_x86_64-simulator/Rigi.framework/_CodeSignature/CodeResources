@@ -10,7 +10,7 @@
 		</data>
 		<key>Headers/Rigi-Swift.h</key>
 		<data>
-		mL4Kn4K1tyGYuJWxRT75W9lQI/o=
+		2iY03sMVes3TnlcOy5OShWRnfD8=
 		</data>
 		<key>Headers/Rigi.h</key>
 		<data>
@@ -26,11 +26,11 @@
 		</data>
 		<key>Modules/Rigi.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		N1YRQCTHbapik3t9xRGe/kj/iMw=
+		Itx6pkwzVMWg4K/rmyhhbgkkK5s=
 		</data>
 		<key>Modules/Rigi.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		T/ZM9iEIK5K5IlJPSanHTO0B+3I=
+		I+b24OIAuSlnhhb1J03XF5KUiGs=
 		</data>
 		<key>Modules/Rigi.swiftmodule/arm64.swiftdoc</key>
 		<data>
@@ -38,11 +38,11 @@
 		</data>
 		<key>Modules/Rigi.swiftmodule/arm64.swiftinterface</key>
 		<data>
-		N1YRQCTHbapik3t9xRGe/kj/iMw=
+		Itx6pkwzVMWg4K/rmyhhbgkkK5s=
 		</data>
 		<key>Modules/Rigi.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		T/ZM9iEIK5K5IlJPSanHTO0B+3I=
+		I+b24OIAuSlnhhb1J03XF5KUiGs=
 		</data>
 		<key>Modules/Rigi.swiftmodule/i386-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -50,11 +50,11 @@
 		</data>
 		<key>Modules/Rigi.swiftmodule/i386-apple-ios-simulator.swiftinterface</key>
 		<data>
-		EDu6SqrIjII2ZiimsaCHvtkEAsk=
+		DUJtZxLt5+DiCtA/bW2yrQA/SGw=
 		</data>
 		<key>Modules/Rigi.swiftmodule/i386-apple-ios-simulator.swiftmodule</key>
 		<data>
-		nmKYy0Q8poEYzHHgUxaJP9xfXwk=
+		cSWVhgrpesDo0ox+RnKeAODtw8Y=
 		</data>
 		<key>Modules/Rigi.swiftmodule/i386.swiftdoc</key>
 		<data>
@@ -62,11 +62,11 @@
 		</data>
 		<key>Modules/Rigi.swiftmodule/i386.swiftinterface</key>
 		<data>
-		EDu6SqrIjII2ZiimsaCHvtkEAsk=
+		DUJtZxLt5+DiCtA/bW2yrQA/SGw=
 		</data>
 		<key>Modules/Rigi.swiftmodule/i386.swiftmodule</key>
 		<data>
-		nmKYy0Q8poEYzHHgUxaJP9xfXwk=
+		cSWVhgrpesDo0ox+RnKeAODtw8Y=
 		</data>
 		<key>Modules/Rigi.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -74,11 +74,11 @@
 		</data>
 		<key>Modules/Rigi.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		BzLkbQt/vp7kYROKFlQTKW4jByg=
+		WnhILhRKK10BcF2FbTOCLjyBj/s=
 		</data>
 		<key>Modules/Rigi.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		ofNqNuTh2Gq3b9OpCKs74vw67e0=
+		W2XIpjtTTTcGKEpv4t2JDpbwUxY=
 		</data>
 		<key>Modules/Rigi.swiftmodule/x86_64.swiftdoc</key>
 		<data>
@@ -86,11 +86,11 @@
 		</data>
 		<key>Modules/Rigi.swiftmodule/x86_64.swiftinterface</key>
 		<data>
-		BzLkbQt/vp7kYROKFlQTKW4jByg=
+		WnhILhRKK10BcF2FbTOCLjyBj/s=
 		</data>
 		<key>Modules/Rigi.swiftmodule/x86_64.swiftmodule</key>
 		<data>
-		ofNqNuTh2Gq3b9OpCKs74vw67e0=
+		W2XIpjtTTTcGKEpv4t2JDpbwUxY=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -114,11 +114,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			mL4Kn4K1tyGYuJWxRT75W9lQI/o=
+			2iY03sMVes3TnlcOy5OShWRnfD8=
 			</data>
 			<key>hash2</key>
 			<data>
-			l01BYJ70T1mdwPb0LvZtcrXLur944mO83mOdtXzj/1E=
+			ZCL0PbtLrk4iJ8zF3JQLNzcnUii+BFRGfStJjujZOX4=
 			</data>
 		</dict>
 		<key>Headers/Rigi.h</key>
@@ -147,22 +147,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			N1YRQCTHbapik3t9xRGe/kj/iMw=
+			Itx6pkwzVMWg4K/rmyhhbgkkK5s=
 			</data>
 			<key>hash2</key>
 			<data>
-			tT/YisH/prSmAGHq9Nm4GlVGGoIeek8iXI7uqzseBMg=
+			hRibrI8HT0EyRfrr9dC46/1J8ql6R2tF3jcxYCcJvdk=
 			</data>
 		</dict>
 		<key>Modules/Rigi.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			T/ZM9iEIK5K5IlJPSanHTO0B+3I=
+			I+b24OIAuSlnhhb1J03XF5KUiGs=
 			</data>
 			<key>hash2</key>
 			<data>
-			2YNiCm5qDZ1ziIn3bEv+Xbq7Dxp5f6tmEOWZJUJk4So=
+			g2BCf1VE/f5z6ytOtSHw/Ywx7PFVsUUkdVs62cwNZ2c=
 			</data>
 		</dict>
 		<key>Modules/Rigi.swiftmodule/arm64.swiftdoc</key>
@@ -180,22 +180,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			N1YRQCTHbapik3t9xRGe/kj/iMw=
+			Itx6pkwzVMWg4K/rmyhhbgkkK5s=
 			</data>
 			<key>hash2</key>
 			<data>
-			tT/YisH/prSmAGHq9Nm4GlVGGoIeek8iXI7uqzseBMg=
+			hRibrI8HT0EyRfrr9dC46/1J8ql6R2tF3jcxYCcJvdk=
 			</data>
 		</dict>
 		<key>Modules/Rigi.swiftmodule/arm64.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			T/ZM9iEIK5K5IlJPSanHTO0B+3I=
+			I+b24OIAuSlnhhb1J03XF5KUiGs=
 			</data>
 			<key>hash2</key>
 			<data>
-			2YNiCm5qDZ1ziIn3bEv+Xbq7Dxp5f6tmEOWZJUJk4So=
+			g2BCf1VE/f5z6ytOtSHw/Ywx7PFVsUUkdVs62cwNZ2c=
 			</data>
 		</dict>
 		<key>Modules/Rigi.swiftmodule/i386-apple-ios-simulator.swiftdoc</key>
@@ -213,22 +213,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			EDu6SqrIjII2ZiimsaCHvtkEAsk=
+			DUJtZxLt5+DiCtA/bW2yrQA/SGw=
 			</data>
 			<key>hash2</key>
 			<data>
-			RilIPz8yEhAJK1nxbhceU6urD+g+egp1mMpi8s52878=
+			C2+E1yCzWXBPZz++ggxYkrugXbHX5UNC6iHGbV1fYfU=
 			</data>
 		</dict>
 		<key>Modules/Rigi.swiftmodule/i386-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			nmKYy0Q8poEYzHHgUxaJP9xfXwk=
+			cSWVhgrpesDo0ox+RnKeAODtw8Y=
 			</data>
 			<key>hash2</key>
 			<data>
-			+LigrDo7qMnV/cUlsTi1Vdh8q5RpKIh5E+SjsoiBiLM=
+			yRYAKgryYo5Y7zzk4h87X6t3niIEOUuR+qhYeTaDVrY=
 			</data>
 		</dict>
 		<key>Modules/Rigi.swiftmodule/i386.swiftdoc</key>
@@ -246,22 +246,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			EDu6SqrIjII2ZiimsaCHvtkEAsk=
+			DUJtZxLt5+DiCtA/bW2yrQA/SGw=
 			</data>
 			<key>hash2</key>
 			<data>
-			RilIPz8yEhAJK1nxbhceU6urD+g+egp1mMpi8s52878=
+			C2+E1yCzWXBPZz++ggxYkrugXbHX5UNC6iHGbV1fYfU=
 			</data>
 		</dict>
 		<key>Modules/Rigi.swiftmodule/i386.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			nmKYy0Q8poEYzHHgUxaJP9xfXwk=
+			cSWVhgrpesDo0ox+RnKeAODtw8Y=
 			</data>
 			<key>hash2</key>
 			<data>
-			+LigrDo7qMnV/cUlsTi1Vdh8q5RpKIh5E+SjsoiBiLM=
+			yRYAKgryYo5Y7zzk4h87X6t3niIEOUuR+qhYeTaDVrY=
 			</data>
 		</dict>
 		<key>Modules/Rigi.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -279,22 +279,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			BzLkbQt/vp7kYROKFlQTKW4jByg=
+			WnhILhRKK10BcF2FbTOCLjyBj/s=
 			</data>
 			<key>hash2</key>
 			<data>
-			6pswk9KudnM2P6aL+sM7rF3hJIkwgdEyl7gx5uLUGUg=
+			tvlG2BMk5yxA6Rp8RwiZnqAGaDjRFsrQdaRpjsi1Fe4=
 			</data>
 		</dict>
 		<key>Modules/Rigi.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			ofNqNuTh2Gq3b9OpCKs74vw67e0=
+			W2XIpjtTTTcGKEpv4t2JDpbwUxY=
 			</data>
 			<key>hash2</key>
 			<data>
-			QQkHt0kkzmQCNlVslSTpOTHPwOwB3p6w9xd/Kz1+9Fg=
+			ojyHfDV2fyjbSutUq5ueLmtBmEGqYIlA372EGj8NT1A=
 			</data>
 		</dict>
 		<key>Modules/Rigi.swiftmodule/x86_64.swiftdoc</key>
@@ -312,22 +312,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			BzLkbQt/vp7kYROKFlQTKW4jByg=
+			WnhILhRKK10BcF2FbTOCLjyBj/s=
 			</data>
 			<key>hash2</key>
 			<data>
-			6pswk9KudnM2P6aL+sM7rF3hJIkwgdEyl7gx5uLUGUg=
+			tvlG2BMk5yxA6Rp8RwiZnqAGaDjRFsrQdaRpjsi1Fe4=
 			</data>
 		</dict>
 		<key>Modules/Rigi.swiftmodule/x86_64.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			ofNqNuTh2Gq3b9OpCKs74vw67e0=
+			W2XIpjtTTTcGKEpv4t2JDpbwUxY=
 			</data>
 			<key>hash2</key>
 			<data>
-			QQkHt0kkzmQCNlVslSTpOTHPwOwB3p6w9xd/Kz1+9Fg=
+			ojyHfDV2fyjbSutUq5ueLmtBmEGqYIlA372EGj8NT1A=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

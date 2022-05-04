@@ -7,7 +7,7 @@
 
 import Foundation
 
-class RigiFileSystem {
+public class RigiFileSystem {
 
     static var rigiDir: String? {
         guard let dir = NSSearchPathForDirectoriesInDomains(.documentDirectory, .userDomainMask, true).first

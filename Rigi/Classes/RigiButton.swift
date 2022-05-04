@@ -13,7 +13,7 @@ import UIKit
 
 // MARK: - Floating Button Window
 
-class RigiButton: UIViewController {
+public class RigiButton: UIViewController {
     private(set) var button: UIButton!
     private(set) var active: UIImageView!
 
@@ -53,7 +53,7 @@ class RigiButton: UIViewController {
         window?.windowLevel = UIWindow.Level(rawValue: CGFloat.greatestFiniteMagnitude)
     }
 
-    override func loadView() {
+    public override func loadView() {
         let screen  = UIScreen.main.bounds
         let size = screen.width / 7
 
@@ -63,8 +63,8 @@ class RigiButton: UIViewController {
         // Maybe we should match the naming of the Bundle(for:) and the "resource_bundles" naming in
         // the podspec somehow. Using "s.resource" instead seems to work ok however. So lets do it that way.
 
-        let iconNormal = UIImage(named: "rigi-icon-blue", in: Bundle(for: Rigi.self), compatibleWith: nil)
-        let iconActive = UIImage(named: "rigi-icon-red", in: Bundle(for: Rigi.self), compatibleWith: nil)
+        let iconNormal = UIImage(named: "rigi-icon-blue", in: Bundle(for: RigiSdk.self), compatibleWith: nil)
+        let iconActive = UIImage(named: "rigi-icon-red", in: Bundle(for: RigiSdk.self), compatibleWith: nil)
 
 //        let iconNormal = UIImage(named: "rigi-icon-blue", in: Bundle(identifier: "Rigi"), compatibleWith: nil)
 //        let iconActive = UIImage(named: "rigi-icon-red", in: Bundle(identifier: "Rigi"), compatibleWith: nil)
@@ -112,7 +112,7 @@ class RigiButton: UIViewController {
         }
     }
 
-    override func viewDidLayoutSubviews() {
+    public override func viewDidLayoutSubviews() {
         super.viewDidLayoutSubviews()
         snapButtonToSocket()
     }

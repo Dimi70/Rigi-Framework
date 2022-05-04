@@ -9,13 +9,13 @@ import Foundation
 
 public var debugLoggingEnabled = false
 
-enum RigiLogLevel: String {
+public enum RigiLogLevel: String {
     case debug = "debug", verbose = "verbose", warning = "warning", error = "error"
 }
 
-class RigiLogger {
+public class RigiLogger {
     public static func log(_ level: RigiLogLevel = .verbose, _ message: String, _ error: Error? = nil) {
-        if !Rigi.shared.settings.loggingEnabled {
+        if !RigiSdk.shared.settings.loggingEnabled {
             return
         }
         if !debugLoggingEnabled && (level == .debug) {

@@ -22,4 +22,3 @@ xcodebuild -create-xcframework \
 -framework './build/Rigi.framework-iphoneos.xcarchive/Products/Library/Frameworks/Rigi.framework' \
 -output './build/Rigi.xcframework'
 
-zip -r Rigi.xcframework.zip LICENSE build/Rigi.xcframework

@@ -6,25 +6,27 @@
 	objectVersion = 55;
 	objects = {
 
+/* Begin PBXAggregateTarget section */
+		AEADF48248E408974B5C449C29354A69 /* Rigi */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 39AA167DBE58CD4F6655612698B9C131 /* Build configuration list for PBXAggregateTarget "Rigi" */;
+			buildPhases = (
+				68F862397D898573D4225C06B972B137 /* [CP] Copy XCFrameworks */,
+			);
+			dependencies = (
+			);
+			name = Rigi;
+		};
+/* End PBXAggregateTarget section */
+
 /* Begin PBXBuildFile section */
-		07CB228FC49611D56F4C390BECACB5BB /* Rigi-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 83676380C7D55721085E0665FD229895 /* Rigi-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		28A0FF5652B118AC59DD11434A47C795 /* Pods-Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7825A90E082A1582EB16256B0E722B3F /* Pods-Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3AC3AEE1DD5BFCEEB5E1C8E7DACD82AC /* RigiButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2192EB7E74991CF32F2F7BDAB4FC478A /* RigiButton.swift */; };
-		551A194AFA97E8753CC6C7ACF8A8554F /* RigiExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3FC9F0953C786EA25B993E5F88041C3 /* RigiExtensions.swift */; };
-		8D37FEBD84071A757626B14FBFABF666 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
-		8D7C8EE70F7C888C074764BA7E2D06A6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */; };
-		A335E9F8C604484CEC873112BA1FAA27 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
-		AA06EA5ADDCBE3D16698AF0EA131862D /* Rigi.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E5CD9A14616DA18B908569726D9FC6BA /* Rigi.xcassets */; };
-		ADC024B36647D71F4AE290AA6A81FB11 /* Rigi-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 05B3C2DEC6FBE7A274EC4EC4ED7828D0 /* Rigi-dummy.m */; };
-		AFA2B11E75F0B37EF0BE04CE02A56802 /* RigiLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40A1C2C9BCC15B202AD67748A174C14B /* RigiLogger.swift */; };
-		B5523FF83C242C66A5E5BD5A56758616 /* Rigi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72B2264E192CC38A925920DE956B7264 /* Rigi.swift */; };
-		BEB86A399AFEEFC1599E3DD01C154535 /* RigiSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5E229A9C5873FBD97D34374DA83DB22 /* RigiSettings.swift */; };
-		DCEAEEF66BAB63B79CDFA7ECB3A5F6B4 /* Pods-Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D6D7C498FA339E02BD53ECB8916CEA8E /* Pods-Example-dummy.m */; };
-		E8AC725716CD09F7E3B9B92B10A9642C /* RigiFileSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00807A9B3E3635E3454A8D4617B17077 /* RigiFileSystem.swift */; };
+		28A0FF5652B118AC59DD11434A47C795 /* Pods-Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C311A072E895F6578A6539CE40DAEB25 /* Pods-Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8D37FEBD84071A757626B14FBFABF666 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		DCEAEEF66BAB63B79CDFA7ECB3A5F6B4 /* Pods-Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A4CC938C90624E8D24DF8F24F4730DF /* Pods-Example-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		0C2A612F69EDD362219AB2307F2A7FE5 /* PBXContainerItemProxy */ = {
+		94DEA310F67483678069FD8970A6889C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -34,47 +36,27 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		00807A9B3E3635E3454A8D4617B17077 /* RigiFileSystem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RigiFileSystem.swift; path = Classes/RigiFileSystem.swift; sourceTree = "<group>"; };
-		05B3C2DEC6FBE7A274EC4EC4ED7828D0 /* Rigi-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Rigi-dummy.m"; sourceTree = "<group>"; };
-		0F8C03EA222F22DB2074AEBF43CEAE2F /* Rigi.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Rigi.debug.xcconfig; sourceTree = "<group>"; };
-		1136D87632BF3AE55B601CA8F62965DF /* Rigi.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Rigi.modulemap; sourceTree = "<group>"; };
-		16C4990F624BA6E45B9F7D4644D35CAF /* Rigi */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Rigi; path = Rigi.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A4CC938C90624E8D24DF8F24F4730DF /* Pods-Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Example-dummy.m"; sourceTree = "<group>"; };
+		10A028C1355C497E69B7FA3D9F05B59E /* Pods-Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		1F667CC0E19EAF34E5A4119E2121F585 /* Pods-Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-Example"; path = Pods_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		2192EB7E74991CF32F2F7BDAB4FC478A /* RigiButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RigiButton.swift; path = Classes/RigiButton.swift; sourceTree = "<group>"; };
-		243410B9535472556EA4BB6DBC133A0D /* Pods-Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Example.release.xcconfig"; sourceTree = "<group>"; };
-		31C1D37707DFAA5E6A164BCC07834264 /* Pods-Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Example-Info.plist"; sourceTree = "<group>"; };
-		35C305D3797C284E6F5BAA1D3E6F9BF8 /* Pods-Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Example.modulemap"; sourceTree = "<group>"; };
-		40A1C2C9BCC15B202AD67748A174C14B /* RigiLogger.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RigiLogger.swift; path = Classes/RigiLogger.swift; sourceTree = "<group>"; };
-		441854E35F81731E63E53DC7E4EEAD9D /* Pods-Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		4B8AFC4FF0C32589883F095A23902CBF /* Rigi-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Rigi-prefix.pch"; sourceTree = "<group>"; };
-		5E9AD2303A14D85EA11CEEEA9049F719 /* Rigi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Rigi.release.xcconfig; sourceTree = "<group>"; };
-		72B2264E192CC38A925920DE956B7264 /* Rigi.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Rigi.swift; path = Classes/Rigi.swift; sourceTree = "<group>"; };
-		7825A90E082A1582EB16256B0E722B3F /* Pods-Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Example-umbrella.h"; sourceTree = "<group>"; };
-		83676380C7D55721085E0665FD229895 /* Rigi-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Rigi-umbrella.h"; sourceTree = "<group>"; };
-		9CE2D34938A7B04F87DC33A7D72E0163 /* Rigi.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = Rigi.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		2F584467E77187F22B38443ED1DED5C1 /* Pods-Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Example-Info.plist"; sourceTree = "<group>"; };
+		36B858E96F9D6F65BD7D5BA2DF6A3A23 /* Pods-Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Example-frameworks.sh"; sourceTree = "<group>"; };
+		3ADCB6AC350FED33810E08D8549199B6 /* Rigi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Rigi.release.xcconfig; sourceTree = "<group>"; };
+		497FA5453D8E5D55A648DD370E854486 /* Rigi.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = Rigi.xcframework; path = Rigi/Frameworks/Rigi.xcframework; sourceTree = "<group>"; };
+		52C7A35AA46CB6DBEFE614A8F9D5FDC6 /* Rigi-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Rigi-xcframeworks.sh"; sourceTree = "<group>"; };
+		632D2448FE4DB4ADEF8B892E4E3216FF /* Rigi.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Rigi.debug.xcconfig; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		88720EEB19C38A893F59C4A28DD4ABDB /* Pods-Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		AFECBC24E09D0D25F822C27BD944AFD4 /* Pods-Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Example-frameworks.sh"; sourceTree = "<group>"; };
-		B45138496B85A072654D1D0F8EBBEDE5 /* Pods-Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Example.debug.xcconfig"; sourceTree = "<group>"; };
-		D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		D5E229A9C5873FBD97D34374DA83DB22 /* RigiSettings.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RigiSettings.swift; path = Classes/RigiSettings.swift; sourceTree = "<group>"; };
-		D6D7C498FA339E02BD53ECB8916CEA8E /* Pods-Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Example-dummy.m"; sourceTree = "<group>"; };
-		E5CD9A14616DA18B908569726D9FC6BA /* Rigi.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = Rigi.xcassets; path = Assets/Rigi.xcassets; sourceTree = "<group>"; };
-		EA21B344259B58996DB73382B1B1521F /* Pods-Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		EEF9DE1EC03B2C3F8E76633E45E98479 /* Rigi-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Rigi-Info.plist"; sourceTree = "<group>"; };
-		F3FC9F0953C786EA25B993E5F88041C3 /* RigiExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RigiExtensions.swift; path = Classes/RigiExtensions.swift; sourceTree = "<group>"; };
+		C279FD3E22C18A18BD14A60BBEE528AE /* Pods-Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Example.release.xcconfig"; sourceTree = "<group>"; };
+		C311A072E895F6578A6539CE40DAEB25 /* Pods-Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Example-umbrella.h"; sourceTree = "<group>"; };
+		E461604D1935300640BC06EC98AF2CF6 /* Pods-Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Example-resources.sh"; sourceTree = "<group>"; };
+		E46AE294CD9E3FDF378630D8D450B624 /* Pods-Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Example.modulemap"; sourceTree = "<group>"; };
+		EE9FB60D37AD58773608D53EFDA1BCB4 /* Pods-Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Example.debug.xcconfig"; sourceTree = "<group>"; };
+		F2B207D54F919D13192C45078FFE7328 /* Rigi.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = Rigi.xcassets; path = Rigi/Resources/Rigi.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		025FE6CC230C66F2AED20F814A32C258 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A335E9F8C604484CEC873112BA1FAA27 /* Foundation.framework in Frameworks */,
-				8D7C8EE70F7C888C074764BA7E2D06A6 /* UIKit.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		30A4FA262F6E2E5FA572E72755F3DFF7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -86,101 +68,53 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0CA161A898C4E4948AA25BE25204DE69 /* Support Files */ = {
+		2000817BD857A64EED16291FD816CAEE /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				1136D87632BF3AE55B601CA8F62965DF /* Rigi.modulemap */,
-				05B3C2DEC6FBE7A274EC4EC4ED7828D0 /* Rigi-dummy.m */,
-				EEF9DE1EC03B2C3F8E76633E45E98479 /* Rigi-Info.plist */,
-				4B8AFC4FF0C32589883F095A23902CBF /* Rigi-prefix.pch */,
-				83676380C7D55721085E0665FD229895 /* Rigi-umbrella.h */,
-				0F8C03EA222F22DB2074AEBF43CEAE2F /* Rigi.debug.xcconfig */,
-				5E9AD2303A14D85EA11CEEEA9049F719 /* Rigi.release.xcconfig */,
+				9E73FBC5A9A1A8C672EEAD1CE141B547 /* Rigi */,
 			);
-			name = "Support Files";
-			path = "../Example/Pods/Target Support Files/Rigi";
+			name = Pods;
 			sourceTree = "<group>";
 		};
-		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
+		272BB7D94996B817C520C0C931431C97 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				59DA5C1F72E1D5BABC43EACBA672C3BA /* iOS */,
+				497FA5453D8E5D55A648DD370E854486 /* Rigi.xcframework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		2960C62AC5D72918775EE29C9CBC1CA5 /* Products */ = {
+		57154274EC146FE9C98743DB36E52A70 /* Products */ = {
 			isa = PBXGroup;
 			children = (
 				1F667CC0E19EAF34E5A4119E2121F585 /* Pods-Example */,
-				16C4990F624BA6E45B9F7D4644D35CAF /* Rigi */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		59DA5C1F72E1D5BABC43EACBA672C3BA /* iOS */ = {
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */,
-				D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */,
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
 			);
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		917828501A5FA005A284A23A8C08CDF7 /* Pod */ = {
+		9E73FBC5A9A1A8C672EEAD1CE141B547 /* Rigi */ = {
 			isa = PBXGroup;
 			children = (
-				9CE2D34938A7B04F87DC33A7D72E0163 /* Rigi.podspec */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		985F9F93FDACF4B9E672FB9599D8B662 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				B94AA72F807BDF164225719E697D057D /* Rigi */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		9BDBD95ED116334D1B2835202D8D3060 /* Pods-Example */ = {
-			isa = PBXGroup;
-			children = (
-				35C305D3797C284E6F5BAA1D3E6F9BF8 /* Pods-Example.modulemap */,
-				441854E35F81731E63E53DC7E4EEAD9D /* Pods-Example-acknowledgements.markdown */,
-				EA21B344259B58996DB73382B1B1521F /* Pods-Example-acknowledgements.plist */,
-				D6D7C498FA339E02BD53ECB8916CEA8E /* Pods-Example-dummy.m */,
-				AFECBC24E09D0D25F822C27BD944AFD4 /* Pods-Example-frameworks.sh */,
-				31C1D37707DFAA5E6A164BCC07834264 /* Pods-Example-Info.plist */,
-				7825A90E082A1582EB16256B0E722B3F /* Pods-Example-umbrella.h */,
-				B45138496B85A072654D1D0F8EBBEDE5 /* Pods-Example.debug.xcconfig */,
-				243410B9535472556EA4BB6DBC133A0D /* Pods-Example.release.xcconfig */,
-			);
-			name = "Pods-Example";
-			path = "Target Support Files/Pods-Example";
-			sourceTree = "<group>";
-		};
-		B94AA72F807BDF164225719E697D057D /* Rigi */ = {
-			isa = PBXGroup;
-			children = (
-				72B2264E192CC38A925920DE956B7264 /* Rigi.swift */,
-				E5CD9A14616DA18B908569726D9FC6BA /* Rigi.xcassets */,
-				2192EB7E74991CF32F2F7BDAB4FC478A /* RigiButton.swift */,
-				F3FC9F0953C786EA25B993E5F88041C3 /* RigiExtensions.swift */,
-				00807A9B3E3635E3454A8D4617B17077 /* RigiFileSystem.swift */,
-				40A1C2C9BCC15B202AD67748A174C14B /* RigiLogger.swift */,
-				D5E229A9C5873FBD97D34374DA83DB22 /* RigiSettings.swift */,
-				917828501A5FA005A284A23A8C08CDF7 /* Pod */,
-				0CA161A898C4E4948AA25BE25204DE69 /* Support Files */,
+				272BB7D94996B817C520C0C931431C97 /* Frameworks */,
+				F2C17C56FD9D97C20830EF9A22831549 /* Resources */,
+				EFEC36C09C967CA58D4CF03B584236C1 /* Support Files */,
 			);
 			name = Rigi;
-			path = ../../Rigi;
+			path = Rigi;
 			sourceTree = "<group>";
 		};
-		CE2E825F08D3AD0FD76E6D78D7512ED0 /* Targets Support Files */ = {
+		B36C0C7C10660C72F38622494EBA9D54 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				9BDBD95ED116334D1B2835202D8D3060 /* Pods-Example */,
+				D9318F77E7032564F4DDF10E0CE8AA17 /* Pods-Example */,
 			);
 			name = "Targets Support Files";
 			sourceTree = "<group>";
@@ -189,11 +123,56 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				985F9F93FDACF4B9E672FB9599D8B662 /* Development Pods */,
-				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
-				2960C62AC5D72918775EE29C9CBC1CA5 /* Products */,
-				CE2E825F08D3AD0FD76E6D78D7512ED0 /* Targets Support Files */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				2000817BD857A64EED16291FD816CAEE /* Pods */,
+				57154274EC146FE9C98743DB36E52A70 /* Products */,
+				B36C0C7C10660C72F38622494EBA9D54 /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D9318F77E7032564F4DDF10E0CE8AA17 /* Pods-Example */ = {
+			isa = PBXGroup;
+			children = (
+				E46AE294CD9E3FDF378630D8D450B624 /* Pods-Example.modulemap */,
+				88720EEB19C38A893F59C4A28DD4ABDB /* Pods-Example-acknowledgements.markdown */,
+				10A028C1355C497E69B7FA3D9F05B59E /* Pods-Example-acknowledgements.plist */,
+				0A4CC938C90624E8D24DF8F24F4730DF /* Pods-Example-dummy.m */,
+				36B858E96F9D6F65BD7D5BA2DF6A3A23 /* Pods-Example-frameworks.sh */,
+				2F584467E77187F22B38443ED1DED5C1 /* Pods-Example-Info.plist */,
+				E461604D1935300640BC06EC98AF2CF6 /* Pods-Example-resources.sh */,
+				C311A072E895F6578A6539CE40DAEB25 /* Pods-Example-umbrella.h */,
+				EE9FB60D37AD58773608D53EFDA1BCB4 /* Pods-Example.debug.xcconfig */,
+				C279FD3E22C18A18BD14A60BBEE528AE /* Pods-Example.release.xcconfig */,
+			);
+			name = "Pods-Example";
+			path = "Target Support Files/Pods-Example";
+			sourceTree = "<group>";
+		};
+		EFEC36C09C967CA58D4CF03B584236C1 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				52C7A35AA46CB6DBEFE614A8F9D5FDC6 /* Rigi-xcframeworks.sh */,
+				632D2448FE4DB4ADEF8B892E4E3216FF /* Rigi.debug.xcconfig */,
+				3ADCB6AC350FED33810E08D8549199B6 /* Rigi.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Rigi";
+			sourceTree = "<group>";
+		};
+		F2C17C56FD9D97C20830EF9A22831549 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F2B207D54F919D13192C45078FFE7328 /* Rigi.xcassets */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -204,14 +183,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				28A0FF5652B118AC59DD11434A47C795 /* Pods-Example-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		30DB0860B174C7E3A46B469B3527F2B3 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				07CB228FC49611D56F4C390BECACB5BB /* Rigi-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -230,29 +201,11 @@
 			buildRules = (
 			);
 			dependencies = (
-				C00F35CF574CCEF4465F25BD96FDE418 /* PBXTargetDependency */,
+				2CB1CDA6FD3FD47BFCA93519C3E97519 /* PBXTargetDependency */,
 			);
 			name = "Pods-Example";
 			productName = Pods_Example;
 			productReference = 1F667CC0E19EAF34E5A4119E2121F585 /* Pods-Example */;
-			productType = "com.apple.product-type.framework";
-		};
-		AEADF48248E408974B5C449C29354A69 /* Rigi */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = F29F5A4496D79053A728F614668958C8 /* Build configuration list for PBXNativeTarget "Rigi" */;
-			buildPhases = (
-				30DB0860B174C7E3A46B469B3527F2B3 /* Headers */,
-				06327FC8E79B306BEB19630FFD33E64B /* Sources */,
-				025FE6CC230C66F2AED20F814A32C258 /* Frameworks */,
-				550129567A5DB8546B245572F5FAFB88 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = Rigi;
-			productName = Rigi;
-			productReference = 16C4990F624BA6E45B9F7D4644D35CAF /* Rigi */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -273,7 +226,7 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 2960C62AC5D72918775EE29C9CBC1CA5 /* Products */;
+			productRefGroup = 57154274EC146FE9C98743DB36E52A70 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -284,14 +237,6 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		550129567A5DB8546B245572F5FAFB88 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				AA06EA5ADDCBE3D16698AF0EA131862D /* Rigi.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		5726AD86D4246BEB70E8928DA7DDB714 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -301,21 +246,27 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
-/* Begin PBXSourcesBuildPhase section */
-		06327FC8E79B306BEB19630FFD33E64B /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
+/* Begin PBXShellScriptBuildPhase section */
+		68F862397D898573D4225C06B972B137 /* [CP] Copy XCFrameworks */ = {
+			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B5523FF83C242C66A5E5BD5A56758616 /* Rigi.swift in Sources */,
-				ADC024B36647D71F4AE290AA6A81FB11 /* Rigi-dummy.m in Sources */,
-				3AC3AEE1DD5BFCEEB5E1C8E7DACD82AC /* RigiButton.swift in Sources */,
-				551A194AFA97E8753CC6C7ACF8A8554F /* RigiExtensions.swift in Sources */,
-				E8AC725716CD09F7E3B9B92B10A9642C /* RigiFileSystem.swift in Sources */,
-				AFA2B11E75F0B37EF0BE04CE02A56802 /* RigiLogger.swift in Sources */,
-				BEB86A399AFEEFC1599E3DD01C154535 /* RigiSettings.swift in Sources */,
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Rigi/Rigi-xcframeworks-input-files.xcfilelist",
+			);
+			name = "[CP] Copy XCFrameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Rigi/Rigi-xcframeworks-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Rigi/Rigi-xcframeworks.sh\"\n";
+			showEnvVarsInLog = 0;
 		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
 		CC52BDCB59C18E40E7499FA43463A505 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -327,18 +278,18 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		C00F35CF574CCEF4465F25BD96FDE418 /* PBXTargetDependency */ = {
+		2CB1CDA6FD3FD47BFCA93519C3E97519 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Rigi;
 			target = AEADF48248E408974B5C449C29354A69 /* Rigi */;
-			targetProxy = 0C2A612F69EDD362219AB2307F2A7FE5 /* PBXContainerItemProxy */;
+			targetProxy = 94DEA310F67483678069FD8970A6889C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		0CF009E95961055EA6EDD9AF54C39DE5 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 243410B9535472556EA4BB6DBC133A0D /* Pods-Example.release.xcconfig */;
+			baseConfigurationReference = C279FD3E22C18A18BD14A60BBEE528AE /* Pods-Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -376,7 +327,7 @@
 		};
 		2A0F71A64A3D03E48098ADD5B766ED5F /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B45138496B85A072654D1D0F8EBBEDE5 /* Pods-Example.debug.xcconfig */;
+			baseConfigurationReference = EE9FB60D37AD58773608D53EFDA1BCB4 /* Pods-Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -473,74 +424,21 @@
 			};
 			name = Release;
 		};
-		9BE1A9EBE3C8E042C535C5A815F9AF0D /* Debug */ = {
+		C8D47A06703B877413AC89250CF9C6C2 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0F8C03EA222F22DB2074AEBF43CEAE2F /* Rigi.debug.xcconfig */;
+			baseConfigurationReference = 3ADCB6AC350FED33810E08D8549199B6 /* Rigi.release.xcconfig */;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/Rigi/Rigi-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Rigi/Rigi-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
 				);
-				MODULEMAP_FILE = "Target Support Files/Rigi/Rigi.modulemap";
-				PRODUCT_MODULE_NAME = Rigi;
-				PRODUCT_NAME = Rigi;
 				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		9D9EB9A6524EC222529A951A9D4A5A0E /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5E9AD2303A14D85EA11CEEEA9049F719 /* Rigi.release.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/Rigi/Rigi-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Rigi/Rigi-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/Rigi/Rigi.modulemap";
-				PRODUCT_MODULE_NAME = Rigi;
-				PRODUCT_NAME = Rigi;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
@@ -610,6 +508,23 @@
 			};
 			name = Debug;
 		};
+		ED7C7424C8AAED2726E083B772F9C8C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 632D2448FE4DB4ADEF8B892E4E3216FF /* Rigi.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -622,20 +537,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		39AA167DBE58CD4F6655612698B9C131 /* Build configuration list for PBXAggregateTarget "Rigi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED7C7424C8AAED2726E083B772F9C8C9 /* Debug */,
+				C8D47A06703B877413AC89250CF9C6C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D299434AB35E7FD6F7921C8EF24742FF /* Debug */,
 				7EE7A78859F657F6BEFC651185B43192 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		F29F5A4496D79053A728F614668958C8 /* Build configuration list for PBXNativeTarget "Rigi" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				9BE1A9EBE3C8E042C535C5A815F9AF0D /* Debug */,
-				9D9EB9A6524EC222529A951A9D4A5A0E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
