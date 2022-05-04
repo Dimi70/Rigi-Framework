@@ -11,7 +11,8 @@ Pod::Spec.new do |s|
 
   s.swift_versions    = '5.2'
   s.platform          = :ios, '10.0'
-  s.frameworks        = 'UIKit'
+  
+  #s.frameworks        = 'UIKit'
 
   s.vendored_frameworks     = 'Rigi/Frameworks/Rigi.xcframework'
   s.preserve_paths          = ['Rigi/bin/**', 'Rigi/docs/**']
