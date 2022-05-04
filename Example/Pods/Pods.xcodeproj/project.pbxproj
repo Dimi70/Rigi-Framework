@@ -9,8 +9,9 @@
 /* Begin PBXAggregateTarget section */
 		AEADF48248E408974B5C449C29354A69 /* Rigi */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = 95BE1DD2BAD4AA86ED20F8CC708BBEF2 /* Build configuration list for PBXAggregateTarget "Rigi" */;
+			buildConfigurationList = 39AA167DBE58CD4F6655612698B9C131 /* Build configuration list for PBXAggregateTarget "Rigi" */;
 			buildPhases = (
+				68F862397D898573D4225C06B972B137 /* [CP] Copy XCFrameworks */,
 			);
 			dependencies = (
 			);
@@ -19,13 +20,13 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		28A0FF5652B118AC59DD11434A47C795 /* Pods-Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A26EC3A56CC4AB6876A51526A56D550E /* Pods-Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		28A0FF5652B118AC59DD11434A47C795 /* Pods-Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C311A072E895F6578A6539CE40DAEB25 /* Pods-Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8D37FEBD84071A757626B14FBFABF666 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		DCEAEEF66BAB63B79CDFA7ECB3A5F6B4 /* Pods-Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F136FFE8A9F77E570AF1D4CFBD7CF333 /* Pods-Example-dummy.m */; };
+		DCEAEEF66BAB63B79CDFA7ECB3A5F6B4 /* Pods-Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A4CC938C90624E8D24DF8F24F4730DF /* Pods-Example-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		94BD2CDA7D910ED1654671B3A99CC6CD /* PBXContainerItemProxy */ = {
+		94DEA310F67483678069FD8970A6889C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -35,19 +36,24 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1B509324E0DDBFAF6F9BDEE03557A200 /* Pods-Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		0A4CC938C90624E8D24DF8F24F4730DF /* Pods-Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Example-dummy.m"; sourceTree = "<group>"; };
+		10A028C1355C497E69B7FA3D9F05B59E /* Pods-Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		1F667CC0E19EAF34E5A4119E2121F585 /* Pods-Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-Example"; path = Pods_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		37E86C8334F06C336630A870A0B2E62F /* Pods-Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Example.debug.xcconfig"; sourceTree = "<group>"; };
-		48CB30E33DCE06DEDD3E8B6BC4D260B6 /* Rigi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Rigi.release.xcconfig; sourceTree = "<group>"; };
-		6A5BCFDC8A0BFCCF78D79352ECBE4D05 /* Pods-Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2F584467E77187F22B38443ED1DED5C1 /* Pods-Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Example-Info.plist"; sourceTree = "<group>"; };
+		36B858E96F9D6F65BD7D5BA2DF6A3A23 /* Pods-Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Example-frameworks.sh"; sourceTree = "<group>"; };
+		3ADCB6AC350FED33810E08D8549199B6 /* Rigi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Rigi.release.xcconfig; sourceTree = "<group>"; };
+		3BA63057F9BA1943A51F7C4F4DFCFC09 /* Rigi.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = Rigi.xcframework; path = Frameworks/Rigi.xcframework; sourceTree = "<group>"; };
+		52C7A35AA46CB6DBEFE614A8F9D5FDC6 /* Rigi-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Rigi-xcframeworks.sh"; sourceTree = "<group>"; };
+		632D2448FE4DB4ADEF8B892E4E3216FF /* Rigi.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Rigi.debug.xcconfig; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		88720EEB19C38A893F59C4A28DD4ABDB /* Pods-Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A26EC3A56CC4AB6876A51526A56D550E /* Pods-Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Example-umbrella.h"; sourceTree = "<group>"; };
-		A38A5498DFA72D80A29954DFC52440DA /* Pods-Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Example-Info.plist"; sourceTree = "<group>"; };
-		ABB05F87B6E16B5577439AFF1A87D53E /* Rigi.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Rigi.debug.xcconfig; sourceTree = "<group>"; };
-		F136FFE8A9F77E570AF1D4CFBD7CF333 /* Pods-Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Example-dummy.m"; sourceTree = "<group>"; };
-		F6DFA99DC01ECBD1B15702F1B1072C87 /* Pods-Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Example.release.xcconfig"; sourceTree = "<group>"; };
-		FBD7B424DDE770E7C3C54A67A1E95C3C /* Pods-Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Example.modulemap"; sourceTree = "<group>"; };
+		C279FD3E22C18A18BD14A60BBEE528AE /* Pods-Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Example.release.xcconfig"; sourceTree = "<group>"; };
+		C311A072E895F6578A6539CE40DAEB25 /* Pods-Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Example-umbrella.h"; sourceTree = "<group>"; };
+		D8FB0F81DFAD1A1B99646D5B2F82050A /* Rigi.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = Rigi.xcassets; path = Resources/Rigi.xcassets; sourceTree = "<group>"; };
+		E461604D1935300640BC06EC98AF2CF6 /* Pods-Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Example-resources.sh"; sourceTree = "<group>"; };
+		E46AE294CD9E3FDF378630D8D450B624 /* Pods-Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Example.modulemap"; sourceTree = "<group>"; };
+		EE9FB60D37AD58773608D53EFDA1BCB4 /* Pods-Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,30 +68,12 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		3B50571D0D943579BB4C0917A2C39A80 /* Support Files */ = {
+		2000817BD857A64EED16291FD816CAEE /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				ABB05F87B6E16B5577439AFF1A87D53E /* Rigi.debug.xcconfig */,
-				48CB30E33DCE06DEDD3E8B6BC4D260B6 /* Rigi.release.xcconfig */,
+				9E73FBC5A9A1A8C672EEAD1CE141B547 /* Rigi */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/Rigi";
-			sourceTree = "<group>";
-		};
-		49D89C83FB6D80909E7AB878478AEF24 /* Pods-Example */ = {
-			isa = PBXGroup;
-			children = (
-				FBD7B424DDE770E7C3C54A67A1E95C3C /* Pods-Example.modulemap */,
-				6A5BCFDC8A0BFCCF78D79352ECBE4D05 /* Pods-Example-acknowledgements.markdown */,
-				1B509324E0DDBFAF6F9BDEE03557A200 /* Pods-Example-acknowledgements.plist */,
-				F136FFE8A9F77E570AF1D4CFBD7CF333 /* Pods-Example-dummy.m */,
-				A38A5498DFA72D80A29954DFC52440DA /* Pods-Example-Info.plist */,
-				A26EC3A56CC4AB6876A51526A56D550E /* Pods-Example-umbrella.h */,
-				37E86C8334F06C336630A870A0B2E62F /* Pods-Example.debug.xcconfig */,
-				F6DFA99DC01ECBD1B15702F1B1072C87 /* Pods-Example.release.xcconfig */,
-			);
-			name = "Pods-Example";
-			path = "Target Support Files/Pods-Example";
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		57154274EC146FE9C98743DB36E52A70 /* Products */ = {
@@ -104,21 +92,31 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		6175F76A709D89A745234C5440684C67 /* Targets Support Files */ = {
+		6A2805E666A6229195BA3A71FBDAA829 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				49D89C83FB6D80909E7AB878478AEF24 /* Pods-Example */,
+				D8FB0F81DFAD1A1B99646D5B2F82050A /* Rigi.xcassets */,
 			);
-			name = "Targets Support Files";
+			name = Resources;
 			sourceTree = "<group>";
 		};
-		8C98B5F1B338223F37AF89EA70214762 /* Rigi */ = {
+		9E73FBC5A9A1A8C672EEAD1CE141B547 /* Rigi */ = {
 			isa = PBXGroup;
 			children = (
-				3B50571D0D943579BB4C0917A2C39A80 /* Support Files */,
+				F85615765C7E432CB5A643A82D937959 /* Frameworks */,
+				6A2805E666A6229195BA3A71FBDAA829 /* Resources */,
+				EFEC36C09C967CA58D4CF03B584236C1 /* Support Files */,
 			);
 			name = Rigi;
 			path = Rigi;
+			sourceTree = "<group>";
+		};
+		B36C0C7C10660C72F38622494EBA9D54 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D9318F77E7032564F4DDF10E0CE8AA17 /* Pods-Example */,
+			);
+			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -126,9 +124,9 @@
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				DC8A5C4DDDDA6FDB88FFEA995F24D72E /* Pods */,
+				2000817BD857A64EED16291FD816CAEE /* Pods */,
 				57154274EC146FE9C98743DB36E52A70 /* Products */,
-				6175F76A709D89A745234C5440684C67 /* Targets Support Files */,
+				B36C0C7C10660C72F38622494EBA9D54 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
@@ -140,12 +138,41 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		DC8A5C4DDDDA6FDB88FFEA995F24D72E /* Pods */ = {
+		D9318F77E7032564F4DDF10E0CE8AA17 /* Pods-Example */ = {
 			isa = PBXGroup;
 			children = (
-				8C98B5F1B338223F37AF89EA70214762 /* Rigi */,
+				E46AE294CD9E3FDF378630D8D450B624 /* Pods-Example.modulemap */,
+				88720EEB19C38A893F59C4A28DD4ABDB /* Pods-Example-acknowledgements.markdown */,
+				10A028C1355C497E69B7FA3D9F05B59E /* Pods-Example-acknowledgements.plist */,
+				0A4CC938C90624E8D24DF8F24F4730DF /* Pods-Example-dummy.m */,
+				36B858E96F9D6F65BD7D5BA2DF6A3A23 /* Pods-Example-frameworks.sh */,
+				2F584467E77187F22B38443ED1DED5C1 /* Pods-Example-Info.plist */,
+				E461604D1935300640BC06EC98AF2CF6 /* Pods-Example-resources.sh */,
+				C311A072E895F6578A6539CE40DAEB25 /* Pods-Example-umbrella.h */,
+				EE9FB60D37AD58773608D53EFDA1BCB4 /* Pods-Example.debug.xcconfig */,
+				C279FD3E22C18A18BD14A60BBEE528AE /* Pods-Example.release.xcconfig */,
 			);
-			name = Pods;
+			name = "Pods-Example";
+			path = "Target Support Files/Pods-Example";
+			sourceTree = "<group>";
+		};
+		EFEC36C09C967CA58D4CF03B584236C1 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				52C7A35AA46CB6DBEFE614A8F9D5FDC6 /* Rigi-xcframeworks.sh */,
+				632D2448FE4DB4ADEF8B892E4E3216FF /* Rigi.debug.xcconfig */,
+				3ADCB6AC350FED33810E08D8549199B6 /* Rigi.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Rigi";
+			sourceTree = "<group>";
+		};
+		F85615765C7E432CB5A643A82D937959 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3BA63057F9BA1943A51F7C4F4DFCFC09 /* Rigi.xcframework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -174,7 +201,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				7CBC289C2C49FD2D65509A2FE00D6929 /* PBXTargetDependency */,
+				2CB1CDA6FD3FD47BFCA93519C3E97519 /* PBXTargetDependency */,
 			);
 			name = "Pods-Example";
 			productName = Pods_Example;
@@ -219,6 +246,26 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		68F862397D898573D4225C06B972B137 /* [CP] Copy XCFrameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Rigi/Rigi-xcframeworks-input-files.xcfilelist",
+			);
+			name = "[CP] Copy XCFrameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Rigi/Rigi-xcframeworks-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Rigi/Rigi-xcframeworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		CC52BDCB59C18E40E7499FA43463A505 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -231,18 +278,18 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		7CBC289C2C49FD2D65509A2FE00D6929 /* PBXTargetDependency */ = {
+		2CB1CDA6FD3FD47BFCA93519C3E97519 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Rigi;
 			target = AEADF48248E408974B5C449C29354A69 /* Rigi */;
-			targetProxy = 94BD2CDA7D910ED1654671B3A99CC6CD /* PBXContainerItemProxy */;
+			targetProxy = 94DEA310F67483678069FD8970A6889C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		0CF009E95961055EA6EDD9AF54C39DE5 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F6DFA99DC01ECBD1B15702F1B1072C87 /* Pods-Example.release.xcconfig */;
+			baseConfigurationReference = C279FD3E22C18A18BD14A60BBEE528AE /* Pods-Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -280,7 +327,7 @@
 		};
 		2A0F71A64A3D03E48098ADD5B766ED5F /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 37E86C8334F06C336630A870A0B2E62F /* Pods-Example.debug.xcconfig */;
+			baseConfigurationReference = EE9FB60D37AD58773608D53EFDA1BCB4 /* Pods-Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -314,24 +361,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
-		};
-		39589A4ED42AFD43E9FBAF3EB2A1A641 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 48CB30E33DCE06DEDD3E8B6BC4D260B6 /* Rigi.release.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
 		};
 		7EE7A78859F657F6BEFC651185B43192 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -392,6 +421,24 @@
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		C8D47A06703B877413AC89250CF9C6C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3ADCB6AC350FED33810E08D8549199B6 /* Rigi.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
@@ -461,9 +508,9 @@
 			};
 			name = Debug;
 		};
-		EB0542CB203E10ABC68E6A8728DEC9AE /* Debug */ = {
+		ED7C7424C8AAED2726E083B772F9C8C9 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = ABB05F87B6E16B5577439AFF1A87D53E /* Rigi.debug.xcconfig */;
+			baseConfigurationReference = 632D2448FE4DB4ADEF8B892E4E3216FF /* Rigi.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -490,20 +537,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		39AA167DBE58CD4F6655612698B9C131 /* Build configuration list for PBXAggregateTarget "Rigi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED7C7424C8AAED2726E083B772F9C8C9 /* Debug */,
+				C8D47A06703B877413AC89250CF9C6C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D299434AB35E7FD6F7921C8EF24742FF /* Debug */,
 				7EE7A78859F657F6BEFC651185B43192 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		95BE1DD2BAD4AA86ED20F8CC708BBEF2 /* Build configuration list for PBXAggregateTarget "Rigi" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				EB0542CB203E10ABC68E6A8728DEC9AE /* Debug */,
-				39589A4ED42AFD43E9FBAF3EB2A1A641 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

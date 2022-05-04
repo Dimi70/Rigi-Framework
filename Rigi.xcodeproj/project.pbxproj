@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		36E61AF72821276B00AB32E2 /* Rigi.h in Headers */ = {isa = PBXBuildFile; fileRef = 36E61AF42821276B00AB32E2 /* Rigi.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		36E61B1F2821284F00AB32E2 /* Rigi.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36E61B1E2821284F00AB32E2 /* Rigi.xcassets */; };
+		36E61B1F2821284F00AB32E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36E61B1E2821284F00AB32E2 /* Assets.xcassets */; };
 		36E61B272821285A00AB32E2 /* RigiLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36E61B212821285900AB32E2 /* RigiLogger.swift */; };
 		36E61B282821285A00AB32E2 /* RigiSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36E61B222821285900AB32E2 /* RigiSettings.swift */; };
 		36E61B292821285A00AB32E2 /* RigiSdk.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36E61B232821285900AB32E2 /* RigiSdk.swift */; };
@@ -22,7 +22,7 @@
 		36E61AF12821276B00AB32E2 /* Rigi.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Rigi.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		36E61AF42821276B00AB32E2 /* Rigi.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Rigi.h; sourceTree = "<group>"; };
 		36E61AF52821276B00AB32E2 /* Rigi.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = Rigi.docc; sourceTree = "<group>"; };
-		36E61B1E2821284F00AB32E2 /* Rigi.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Rigi.xcassets; sourceTree = "<group>"; };
+		36E61B1E2821284F00AB32E2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		36E61B212821285900AB32E2 /* RigiLogger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RigiLogger.swift; sourceTree = "<group>"; };
 		36E61B222821285900AB32E2 /* RigiSettings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RigiSettings.swift; sourceTree = "<group>"; };
 		36E61B232821285900AB32E2 /* RigiSdk.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RigiSdk.swift; sourceTree = "<group>"; };
@@ -72,7 +72,7 @@
 		36E61B1D2821284F00AB32E2 /* Assets */ = {
 			isa = PBXGroup;
 			children = (
-				36E61B1E2821284F00AB32E2 /* Rigi.xcassets */,
+				36E61B1E2821284F00AB32E2 /* Assets.xcassets */,
 			);
 			path = Assets;
 			sourceTree = "<group>";
@@ -159,7 +159,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				36E61B1F2821284F00AB32E2 /* Rigi.xcassets in Resources */,
+				36E61B1F2821284F00AB32E2 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
